@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Assignment</title>
+</head>
+<body>
+    <h2>HTML Form</h2>
+    <form id="userForm">
+
+        <p>Name:</p>
+        <input type="text" id="name"> <br>
+    
+        <p>Age:</p>
+        <input type="number" id="age"><br>
+    
+        <p>Gender:</p>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br>
+    
+        <p>Country:</p>
+        <select id="country">
+          <option value="">Select Country</option>
+          <option>India</option>
+          <option>USA</option>
+          <option>Japan</option>
+          <option>China</option>
+        </select>
+        <br>
+    
+        <p>Technological Stack:</p><br>
+        <input type="checkbox" value="HTML"> HTML
+        <input type="checkbox" value="CSS"> CSS
+        <input type="checkbox" value="JS"> JS
+        <input type="checkbox" value="React"> React
+        <input type="checkbox" value="React Native"> React Native
+        <br>
+    
+        <p>Address:</p>
+        <textarea id="address" rows="3"></textarea>
+        <br>
+    
+        <p>Telephone:</p>
+        <input type="tel" id="telephone"><br>
+    
+        <p>Email:</p>
+        <input type="email" id="email"><br><br>
+    
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    
+      </form>
+    
+      <br>
+    
+      <div id="output"></div>
+    
+      
+      <script src="script.js"></script>
+    
+    </body>
+    </html>
+
+
