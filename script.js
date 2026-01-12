@@ -46,4 +46,8 @@ document.getElementById("userForm").addEventListener("submit", function (event) 
       </table>
     `;
   });
+ 
+  document.getElementById("userForm").addEventListener("reset", function () {
+    document.getElementById("output").innerHTML = "";
+  });
   
