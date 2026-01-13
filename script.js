@@ -53,7 +53,7 @@ document.getElementById("userForm").addEventListener("submit", function (event) 
   
   document.getElementById("telephone").addEventListener("input", function () {
     this.value = this.value
-      .replace(/[^0-9+]/g, "")   // allow + and digits
-      .replace(/(?!^)\+/g, ""); // + sirf start me allowed
+      .replace(/[^0-9+]/g, "")   
+      .replace(/(?!^)\+/g, ""); 
   });
   
